@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { LuTimer } from "react-icons/lu";
 import { AiOutlinePlus } from "react-icons/ai";
+import { HiDotsHorizontal } from "react-icons/hi";
 import "./Body.css";
 import Card from "./Card";
 
@@ -60,7 +61,7 @@ const Body = () => {
                 </div>
                 <div className="rightView">
                   <AiOutlinePlus />
-                  <span style={{ letterSpacing: "2px" }}>...</span>
+                  <HiDotsHorizontal />
                 </div>
               </div>
               <div className="dashList flex-gap-10">
