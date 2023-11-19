@@ -1,5 +1,5 @@
 import React from "react";
-import { Circles, Hourglass } from "react-loader-spinner";
+import { Hourglass } from "react-loader-spinner";
 
 const Loading = () => {
   return (

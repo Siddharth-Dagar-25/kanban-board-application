@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { DiCodeigniter } from "react-icons/di";
 import { LuTimer } from "react-icons/lu";
 import { AiOutlinePlus } from "react-icons/ai";
 import "./Body.css";
@@ -56,7 +55,7 @@ const Body = () => {
                     </div>
                   )}
                   <span>
-                    {userData.title} {userData.value?.length}
+                    {userData.title} {userData.value?.length} 
                   </span>
                 </div>
                 <div className="rightView">
