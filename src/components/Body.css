@@ -1,0 +1,28 @@
+.dashContainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color:#f8f8ff;
+    padding: 5px 10px;
+}
+
+.dashCardContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 300px;
+}
+
+@media (max-width: 1200px) {
+    .dashContainer {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .dashCardContainer {
+        width: 70%; 
+    }
+}
