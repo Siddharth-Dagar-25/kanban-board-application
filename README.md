@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+An interactive Kanban Board Application using React JS which is responsive and visually appealing.
+
+The application offer three distinct ways to group the data:
+
+1. **By Status**: Group tickets based on their current status.
+2. **By User**: Arrange tickets according to the assigned user.
+3. **By Priority**: Group tickets based on their priority level.
+
+Users also be able to sort the displayed tickets in two ways:
+
+1. **Priority**: Arrange tickets in descending order of priority.
+2. **Title**: Sort tickets in ascending order based on their title.
+
+## Features
+- Real-time updates with a responsive UI
+- User profiles with avatars.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
