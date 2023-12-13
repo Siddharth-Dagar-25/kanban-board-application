@@ -54,7 +54,6 @@ Some snapshots of the project :
     ```bash
     npm start
 
-
 ## Contributing
 I welcome any and all contributions! Here are some ways you can get started:
 
